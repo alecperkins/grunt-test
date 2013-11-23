@@ -1,0 +1,12 @@
+@import './modules/module'
+
+@import 'formwork'
+
+body
+    +foo
+    font-family: Menlo
+    +respond-to-gt(800px)
+        color: red
+
+.Story
+    +extends(Item, size small)
